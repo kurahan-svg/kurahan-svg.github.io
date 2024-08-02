@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Set a fixed width */
+}
+
+h1 {
+    font-family: 'Aptos', sans-serif;
+    text-align: center;
+    margin-bottom: 20px; /* Add space below the title */
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc; /* Replace the underline with a horizontal rule */
+    margin-bottom: 20px; /* Add space below the line */
+}
+
+.profile-picture {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Add space below the image */
+}
+
+.profile-picture img {
+    width: 100px; /* Set a fixed width for the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.input-group {
+    margin-bottom: 20px; /* Increase space between input groups */
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+button {
+    width: 100%; /* Adjust button width to match inputs */
+    padding: 10px;
+    background-color: #477EFF;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.form-check {
+    margin-bottom: 20px; /* Add space below the checkbox */
+}
+
+.form-check-input {
+    margin-right: 5px; /* Add space between checkbox and label */
+}
+
+/* Add focus styles for inputs and buttons */
+input:focus, button:focus {
+    outline: 2px solid #477EFF;
+}
+.guest-button {
+    width: 100%; /* Adjust button width to match inputs */
+    padding: 10px;
+    background-color: #fff; /* Change the background color to white */
+    border: 1px solid #ccc; /* Add a border */
+    color: #000; /* Change the text color to black */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.guest-button:hover {
+    background-color: #f2f2f2; /* Change the hover color */
+}
+
+.login-button {
+    font-size: 18px; /* Adjust this value to make the text bigger */
+    font-family: 'Times new roman', sans-serif;
+}
+.sidebar {
+    background-color: #000; /* Change the color of the sidebar to black */
+}
+
+.sidebar .nav-link {
+    color: #fff; /* Change the color of the text in the sidebar to white */
+}
+
+.sidebar .nav-link.active {
+    color: #fff; /* Change the color of the active link text in the sidebar to white */
+}
+
